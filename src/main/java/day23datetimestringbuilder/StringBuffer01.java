@@ -4,7 +4,7 @@ public class StringBuffer01 {
 
     /*
         String olusturmak icin String Class, StringBuilder Class, ve StringBuffer kullanilabilir.
-        1)StringBuffer Java'nin String uretmek icin olusturdugu ile Class'dir. Java 5 de uretilmistir.
+        1)StringBuffer Java'nin String uretmek icin olusturdugu ilk Class'dir. Java 5 de uretilmistir.
         2)StringBuffer "synchronized" dir, StringBuilder "synchronized" degildir.
         3)StringBuffer "thread-safe"(multi-thread'e uygun) dir, StringBuilder "thread-safe" degildir.
         4)StringBuffer ve StringBuilder ikisi de mutable dir.

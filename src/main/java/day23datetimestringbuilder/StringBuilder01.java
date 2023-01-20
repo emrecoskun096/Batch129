@@ -14,12 +14,13 @@ public class StringBuilder01 {
         String t = s + "!";
         String w = t + "?";
 
+
         //String'i degistirdikten sonra ayni String assign ederseniz, Java yine yeni bir container olusturur,
         //degismis degeri bu yeni container'in icine koyar ve eski container'i gosteren oku yeni container'a yonlendirir.
         //Dolayisiyla eski container adressiz kalir, ve "Garbage Collector" adressiz olan container'lari siler.
         String a = "Money";
         a = a + " More";
-
+        System.out.println(a);
         //Mutable
         //StringBuilder kullanarak String uretmenin 1.Yolu:
         StringBuilder sb1 = new StringBuilder("Python");

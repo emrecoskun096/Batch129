@@ -28,6 +28,8 @@ public class MethodOverloading01 {
     private static void add(int a, int b){
         System.out.println(a+b);
     }
+
+
     private static void add(double a, double b){
         System.out.println(a+b);
     }
