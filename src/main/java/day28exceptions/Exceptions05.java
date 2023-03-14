@@ -5,7 +5,7 @@ public class Exceptions05 {
     public static void main(String[] args) {
 
         int a = 16;
-        int b = 2;
+        int b = 0;
         String s = "My Java";
 
         getCharFromString(s, a, b);
@@ -34,6 +34,8 @@ public class Exceptions05 {
 
         }catch(ArithmeticException e){
             System.out.println("Do not divide by zero");
+            System.out.println(e.getMessage());
+           e.printStackTrace();
         }catch(StringIndexOutOfBoundsException e){
             System.out.println("Olmayan index kullandiniz");
         }

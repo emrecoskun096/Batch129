@@ -1,6 +1,7 @@
 package day27encapsulationabstraction;
 
 public class StudentRunner {
+
     public static void main(String[] args) {
 
 
@@ -16,6 +17,10 @@ public class StudentRunner {
                 myStd.setStdId("TH123");
                 myStd.setGpa(4.0);
                 myStd.setPoor(false);
+
+
+
+
 
             }
 

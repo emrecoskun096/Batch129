@@ -1,6 +1,6 @@
 package day04asciiwrapperclassoperatorsmemoryusage;
 
-public class AsciiValues {
+public class  AsciiValues {
     //Java da her karakterin sayısal bir değeri vardır.
     //Bu değerler ASCII Değer'ler olarak adlandırılır.
     //Bu değerlerin tamamının bulunduğu tabloya ASCII Table denir.

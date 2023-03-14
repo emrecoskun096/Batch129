@@ -13,8 +13,8 @@ public class NestedIf01 {
 
         /*
           Example 1: Kullanicidan 3 tane sayi aliniz.
-                     Bu 3 sayinin ucgen olusturma durumunu kontrol ediniz
-                     Eger ucgen ise “eskenar”
+                     Bu 3 sayinin Ucgen olusturma durumunu kontrol ediniz
+                     Eger Ucgen ise “eskenar”
                      Ucgen olma durumunu
                      kontrol ediniz.
                      INFO :
@@ -23,7 +23,7 @@ public class NestedIf01 {
                      a+b>c>a-b
                      a+c>b>a-c
                      b+c>a>b-c
-                     a=b=c ise eskenar ucgen
+                     a=b=c ise eskenar Ucgen
          */
         Scanner input = new Scanner(System.in);
         System.out.println("Ucgenin kenarlari icin 3 tane uzunluk giriniz...");
@@ -46,13 +46,13 @@ public class NestedIf01 {
         }else if(ucgenmi){
 
             if(a==b && b==c && a==c){
-                System.out.println("Ucgen hem de eskenar ucgen...");
+                System.out.println("Ucgen hem de eskenar Ucgen...");
             }else{
                 System.out.println("Ucgen ama eskenar degil...");
             }
 
         }else{
-            System.out.println("Sen ucgen degilsin...");
+            System.out.println("Sen Ucgen degilsin...");
         }
 
     }

@@ -11,9 +11,9 @@ public class NestedLoop03 {
          * * * *
          * * * * *
          */
-  //      nested for loop ya diktorgen veya ucgen formatinda olabilir
+  //      nested for loop ya diktorgen veya Ucgen formatinda olabilir
   //      diktorgen istedigimizde iki loop icin de bagimsiz en point belirleriz
-  //      ucgen sekli vermek icin inner loop’un end point’ini olarak outer degiskene bagli yapariz
+  //      Ucgen sekli vermek icin inner loop’un end point’ini olarak outer degiskene bagli yapariz
 
   /*      for (int i = 1; i <=5 ; i++) {
             for (int j = 1; j <=i ; j++) {

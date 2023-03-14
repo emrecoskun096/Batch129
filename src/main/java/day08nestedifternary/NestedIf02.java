@@ -9,7 +9,7 @@ public class NestedIf02 {
         /*
           Example 2:Kullanicidan bir ucgenin kenar uzunluklarini aliniz
                     Uc kenari birbirine esit ise "Eskenar Ucgen " yazdiriniz
-                    Sadece iki kenar uzunlugu biribirine esit ise "Ikizkenar ucgen"
+                    Sadece iki kenar uzunlugu biribirine esit ise "Ikizkenar Ucgen"
                     Tum kenarlari birbirinden farkli ise "Cesitkenar Ucgen" yazdiriniz
          */
         Scanner input = new Scanner(System.in);

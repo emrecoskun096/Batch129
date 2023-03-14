@@ -1,22 +1,14 @@
 package adeneme;
-
-import java.util.Scanner;
-
 public class Car {
-    /*
-* Kullanicidan uc basamakli bir sayi alin
-* ve sayinin rakamlarini birler,onlar ve yuzler basamagi olarak yazdirin*/
+    int price = 50;
 
 
+    public Car(int price) {
+        this.price = price;
+    }
     public static void main(String[] args) {
 
-        Scanner input=new Scanner(System.in);
-        System.out.println("uc basamakli sayi giriniz");
-
-
-
-
-
+        Car c1 = new Car(50);
+        System.out.println(c1);
     }
-
-    }
+}

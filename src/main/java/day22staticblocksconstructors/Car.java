@@ -24,7 +24,7 @@ package day22staticblocksconstructors;
 
      */
 
-public class Car {
+ class Car {
 
     String make = "Honda";
     String model = "Accord";

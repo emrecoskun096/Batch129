@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class C01_NestedIf {
     /*
     TASK : Kullanicidan 3 tane pozitif bir tamsayi aliniz.
-           Bu 3 sayinin ucgen olusturma durumunu kontrol ediniz
-           Eger ucgen ise "eskenar"
+           Bu 3 sayinin Ucgen olusturma durumunu kontrol ediniz
+           Eger Ucgen ise "eskenar"
            Ucgen olma durumunu
            kontrol ediniz.
 
@@ -17,7 +17,7 @@ public class C01_NestedIf {
             a+b>c>a-b
             a+c>b>a-c
             b+c>a>b-c
-            a=b=c ise eskenar ucgen
+            a=b=c ise eskenar Ucgen
 
             Java nested kodlari calistirirken cok zaman harciyotr
             Buna "Time Complexity" deniyor
@@ -37,7 +37,7 @@ public class C01_NestedIf {
             if (a == b && b == c && a == c) {
                 System.out.println("Eskenar Ucgen");
             } else {
-                System.out.println("Ucgen ama Eskenar ucgen degildir.");
+                System.out.println("Ucgen ama Eskenar Ucgen degildir.");
             }
 
         } else {//Ucgen Olmama durumu
@@ -46,7 +46,7 @@ public class C01_NestedIf {
 
         //Kullanicidan bir ucgenin kenar uzunlugunu aliniz
         // Uc kenari birbirine esit ise "Eskenar Ucgen " yazdiriniz
-        //Sadece iki kenar uzunlugu biribirine esit ise "Ikizkenar ucgen"
+        //Sadece iki kenar uzunlugu biribirine esit ise "Ikizkenar Ucgen"
         //Tum kenarlari birbirinden farkli ise "Cesitkenar Ucgen" yazdiriniz
 
         System.out.println("Lutfen ucgenin 3 kenar uzunlugunu giriniz");
